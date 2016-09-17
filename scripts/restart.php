@@ -9,7 +9,7 @@
 		'kubectl get deployments',
 		'kubectl get pods',
 		'kubectl delete sopelbot',
-		'kubectl create -f ../sopelbot.yaml',
+		'kubectl create -f ../../sopelbot.yaml',
 		'kubectl get deployments',
 		'kubectl get pods',
 	);
