@@ -10,11 +10,11 @@
 	$commands = array(
 		'/bin/echo $PWD',
 		'/usr/bin/whoami',
-		'/usr/bin/git pull',
-		'/usr/bin/git status',
-		'/usr/bin/git submodule sync',
-		'/usr/bin/git submodule update',
-		'/usr/bin/git submodule status',
+		'../bin/git pull',
+		'../bin/git status',
+		'../bin/git submodule sync',
+		'../bin/git submodule update',
+		'../bin/git submodule status',
 	);
 	// Run the commands for output
 	$output = '';

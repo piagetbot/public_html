@@ -6,12 +6,12 @@
 	$commands = array(
 		'/bin/echo $PWD',
 		'/usr/bin/whoami',
-		'/usr/local/bin/kubectl get deployments',
-		'/usr/local/bin/kubectl get pods',
-		'/usr/local/bin/kubectl delete sopelbot',
-		'/usr/local/bin/kubectl create -f ../../sopelbot.yaml',
-		'/usr/local/bin/kubectl get deployments',
-		'/usr/local/bin/kubectl get pods',
+		'../bin/kubectl get deployments',
+		'../bin/kubectl get pods',
+		'../bin/kubectl delete sopelbot',
+		'../bin/kubectl create -f ../../sopelbot.yaml',
+		'../bin/kubectl get deployments',
+		'../bin/kubectl get pods',
 	);
 	// Run the commands for output
 	$output = '';
