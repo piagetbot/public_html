@@ -8,13 +8,13 @@
 	 */
 	// The commands
 	$commands = array(
-		'echo $PWD',
-		'whoami',
-		'git pull',
-		'git status',
-		'git submodule sync',
-		'git submodule update',
-		'git submodule status',
+		'/bin/echo $PWD',
+		'/usr/bin/whoami',
+		'/usr/bin/git pull',
+		'/usr/bin/git status',
+		'/usr/bin/git submodule sync',
+		'/usr/bin/git submodule update',
+		'/usr/bin/git submodule status',
 	);
 	// Run the commands for output
 	$output = '';
