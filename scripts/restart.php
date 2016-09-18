@@ -4,14 +4,14 @@
 	 */
 	// Command
 	$commands = array(
-		'echo $PWD',
-		'whoami',
-		'kubectl get deployments',
-		'kubectl get pods',
-		'kubectl delete sopelbot',
-		'kubectl create -f ../../sopelbot.yaml',
-		'kubectl get deployments',
-		'kubectl get pods',
+		'/bin/echo $PWD',
+		'/usr/bin/whoami',
+		'/usr/local/bin/kubectl get deployments',
+		'/usr/local/bin/kubectl get pods',
+		'/usr/local/bin/kubectl delete sopelbot',
+		'/usr/local/bin/kubectl create -f ../../sopelbot.yaml',
+		'/usr/local/bin/kubectl get deployments',
+		'/usr/local/bin/kubectl get pods',
 	);
 	// Run the commands for output
 	$output = '';
