@@ -34,8 +34,8 @@
 <pre>
  .  ____  .    ____________________________
  |/      \|   |                            |
-[| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  | Bot Restart Script v0.2 |
- |___==___|  / &copy; oodavid,tom29739 2012,2016 |
+[| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  |   Bot Restart Script v0.2 |
+ |___==___|  / &copy;oodavid,tom29739 2012,2016 |
               |____________________________|
 
 <?php echo $output; ?>
