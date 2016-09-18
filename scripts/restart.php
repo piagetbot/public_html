@@ -6,18 +6,18 @@
 	$commands = array(
 		'/bin/echo $PWD',
 		'/usr/bin/whoami',
-		'../bin/kubectl get deployments',
-		'../bin/kubectl get pods',
-		'../bin/kubectl delete sopelbot',
-		'../bin/kubectl create -f ../../sopelbot.yaml',
-		'../bin/kubectl get deployments',
-		'../bin/kubectl get pods',
+		'../bin/kubectl get deployments 2>&1',
+		'../bin/kubectl get pods 2>&1',
+		'../bin/kubectl delete sopelbot 2>&1',
+		'../bin/kubectl create -f ../../sopelbot.yaml 2>&1',
+		'../bin/kubectl get deployments 2>&1',
+		'../bin/kubectl get pods 2>&1',
 	);
 	// Run the commands for output
 	$output = '';
 	foreach($commands AS $command){
 		// Run it
-		$tmp = shell_exec($command + "2>&1");
+		$tmp = shell_exec($command);
 		// Output
 		$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 		$output .= htmlentities(trim($tmp)) . "\n";
