@@ -22,6 +22,6 @@
 <body>
 	<h1>Nothing much to see here.</h1>
 	Have a random cat fact instead: <strong>
-	<?php echo(json_decode(file_get_contents("http://catfacts-api.appspot.com/api/facts"))->facts[0]); ?></strong>
+	<?php echo(json_decode(file_get_contents("https://catfact.ninja/fact"))->fact); ?></strong>
 </body>
 </html>
